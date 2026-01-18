@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block body %}
+<div class="cont">
+    <div class="text-block">
+        <h2>Добро пожаловать в энциклопедию зимних Олимпиад!</h2>
+        <p>Здесь собрана вся информация о видах спорта, прошедших и будующих Олимпийских играх, и достижениях сборной России!</p>
+        <p>Начните путешествие в мир зимнего спорта прямо сейчас! </p>
+    </div>
+        <img class="image-block" src="{{ url_for('static', filename='img/ol_igr.png') }}" alt="ol_igr">
+    </div>
+</div>
+
+
+
+<p class="version">Версия 1.0</p>
+{% endblock %}

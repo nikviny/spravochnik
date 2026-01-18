@@ -1,0 +1,135 @@
+body {
+    background-color:dodgerblue;
+}
+/* HEADER */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: dodgerblue;
+}
+
+.header__img{
+    padding: 5px;
+    height: 64px;
+    width: 90px;    
+}
+
+/* стиль текста */
+
+.zag {
+    color: white;
+    font-size: 34px;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+
+
+.text {
+    font-family: "Arial", sans-serif; /* шрифты */
+    color: white;                   /* цвет */
+    font-size: 20px;                  /* размер в px */
+    line-height: 1.5;                 /* интервал */                 
+    padding: 10px;                     /* отступ */
+}
+
+
+.glav_img {
+    padding: 25px;  
+    height: 300px;
+    width: 445px;
+}
+
+.nis_img {
+    height: 230px;
+    width: 450px;
+}
+
+
+.image_button {
+        display: inline-block;
+        padding: 5px;
+        background: white;
+        border: 2px solid #ddd;      /* Серая рамка */
+        border-radius: 10px;         /* Закругление */
+        transition: all 0.3s ease;   /* Анимация для всех свойств */
+        text-decoration: none;       /* Убирает подчёркивание у ссылки */
+    }
+
+    /* Стиль при наведении */
+.image_button:hover {
+        transform: scale(1.13);      /* Увеличение на 5% */
+        border: 1px solid #888;      /* Тонкая тёмная рамка */
+    }
+
+    /* Стиль картинки */
+.image_button {
+        display: block;
+        border-radius: 8px;
+        width: 419px;
+        height: 220px;
+    }
+
+.image_button{
+    float:left;
+}
+.images_button {
+    margin: 20px; /* Отступ со всех сторон */
+    /* Или по отдельности: */
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.vid_img {
+    padding: 25px;  
+    height: 270px;
+    width: 438px;
+}
+
+/* Фиксированный блок с версией в правом нижнем углу */
+.version {
+    position: fixed;    /* Фиксированное позиционирование */
+    bottom: 10px;       /* Отступ от нижнего края */
+    right: 10px;        /* Отступ от правого края */
+    font-size: 12px;    /* Маленький размер текста */
+    color: white;        /* Серый цвет текста */
+    opacity: 0.7;       /* Полупрозрачность */
+    font-family: Arial, sans-serif; /* Шрифт */
+    user-select: none;  /* Запрет выделения текста */
+}
+
+/* Дополнительно: изменение стиля при наведении */
+.version:hover {
+    opacity: 1;         /* Убираем прозрачность */
+    cursor: default;    /* Курсор в виде стрелки */
+}
+
+
+
+.cont {
+    display: flex;              /* Включаем Flexbox */
+    align-items: center;       /* Выравниваем по центру вертикально */
+    gap: 20px;                 /* Расстояние между текстом и фото */
+    max-width: 1200px;         /* Максимальная ширина блока */
+    margin: 0 auto;            /* Центрируем на странице */
+    padding: 20px;  
+    font-family: "Arial", sans-serif; /* шрифты */
+    color: white;                   /* цвет */
+    font-size: 20px;      
+}
+
+.text-block {
+    flex: 1;                   /* Занимает доступное пространство */
+}
+
+.image-block {
+    flex: 1;                   /* Занимает столько же места, сколько текст */
+}
+
+.image-block {
+    width: 700px;               
+    height: 400px;                 
+}

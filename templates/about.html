@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Виды спорта
+{% endblock %}
+
+{% block body %}
+
+<!-- Кнопка-ссылка с картинкой, открывает новую вкладку -->
+<a href="{{ url_for('hok') }}">
+    <img class="image_button images_button"  src="{{ url_for('static', filename='img/hok.jpg') }}" alt="Хоккей">
+</a>
+
+<a href="{{ url_for('fig') }}">
+    <img class="image_button images_button"  src="{{ url_for('static', filename='img/fig.jpg') }}" alt="Фигурное катание">
+</a>
+
+<a href="{{ url_for('kon') }}">
+    <img class="image_button images_button"  src="{{ url_for('static', filename='img/kon.jpg') }}" alt="Конькобежный спорт">
+</a>
+
+<a href="{{ url_for('biat') }}">
+    <img class="image_button images_button"  src="{{ url_for('static', filename='img/biat.jpg') }}" alt="Биатлон">
+</a>
+
+<a href="{{ url_for('sky') }}">
+    <img class="image_button images_button"  src="{{ url_for('static', filename='img/sky.jpg') }}" alt="Лыжные гонки">
+</a>
+
+<a href="{{ url_for('sky2') }}">
+    <img class="image_button images_button"  src="{{ url_for('static', filename='img/sky2.jpg') }}" alt="Лыжное двоеборье">
+</a>
+
+<a href="{{ url_for('gor_sky') }}">
+    <img class="image_button images_button"  src="{{ url_for('static', filename='img/gor_sky.jpg') }}" alt="Горнолыжный спорт">
+</a>
+
+<a href="{{ url_for('tramp') }}">
+    <img class="image_button images_button"  src="{{ url_for('static', filename='img/tramp.jpg') }}" alt="Прыжки с трамплина">
+</a>
+
+<a href="{{ url_for('fris') }}">
+    <img class="image_button images_button"  src="{{ url_for('static', filename='img/fris.jpg') }}" alt="Фристайл">
+</a>
+
+<a href="{{ url_for('snoub') }}">
+    <img class="image_button images_button"  src="{{ url_for('static', filename='img/snoub.jpg') }}" alt="Сноубрд">
+</a>
+
+<a href="{{ url_for('short') }}">
+    <img class="image_button images_button"  src="{{ url_for('static', filename='img/short.jpg') }}" alt="Шорт-трек">
+</a>
+
+<a href="{{ url_for('bob') }}">
+    <img class="image_button images_button"  src="{{ url_for('static', filename='img/bob.jpg') }}" alt="Бобслей">
+</a>
+
+<a href="{{ url_for('san') }}">
+    <img class="image_button images_button"  src="{{ url_for('static', filename='img/san.jpg') }}" alt="Санный спорт">
+</a>
+
+<a href="{{ url_for('ker') }}">
+    <img class="image_button images_button"  src="{{ url_for('static', filename='img/ker.jpg') }}" alt="Кёрлинг">
+</a>
+
+<a href="{{ url_for('skel') }}">
+    <img class="image_button images_button"  src="{{ url_for('static', filename='img/skel.jpg') }}" alt="Скелетон">
+</a>
+
+{% endblock %}
