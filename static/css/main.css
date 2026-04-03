@@ -92,7 +92,18 @@ header {
 /* Фиксированный блок с версией в правом нижнем углу */
 .version {
     position: fixed;    /* Фиксированное позиционирование */
-    bottom: 10px;       /* Отступ от нижнего края */
+    bottom: 14px;       /* Отступ от нижнего края */
+    right: 10px;        /* Отступ от правого края */
+    font-size: 12px;    /* Маленький размер текста */
+    color: white;        /* Серый цвет текста */
+    opacity: 0.7;       /* Полупрозрачность */
+    font-family: Arial, sans-serif; /* Шрифт */
+    user-select: none;  /* Запрет выделения текста */
+}
+
+.god {
+    position: fixed;    /* Фиксированное позиционирование */
+    bottom: 0px;       /* Отступ от нижнего края */
     right: 10px;        /* Отступ от правого края */
     font-size: 12px;    /* Маленький размер текста */
     color: white;        /* Серый цвет текста */
@@ -118,7 +129,8 @@ header {
     padding: 20px;  
     font-family: "Arial", sans-serif; /* шрифты */
     color: white;                   /* цвет */
-    font-size: 20px;      
+    font-size: 20px;   
+    user-select: none;    
 }
 
 .text-block {
